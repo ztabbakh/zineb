@@ -1,0 +1,35 @@
+# Dependencies
+markdown:         CommonMarkGhPages
+#kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Zineb Tabbakh
+#tagline:          'A Jekyll theme'
+description:      'Applied mathematics and Computer science'
+url:              '/'
+baseurl:          '/'
+keywords:          'zineb tabbakh optimization scientific computing surrogate modeling machine learning'
+
+author:
+  name:           'Zineb Tabbakh'
+  url:
+
+include:
+  - teaching
+#paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+#github:
+#  repo:           https://github.com/
+
+
+# search engine optimization - AK - Aug 16 - 2017
+gems:
+  - jekyll-seo-tag
